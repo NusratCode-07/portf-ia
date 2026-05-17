@@ -192,3 +192,29 @@ footer{
   padding:20px;
   color:#aaa;
 }
+@media screen and (max-width: 768px) {
+
+  header h1{
+    font-size: 2em;
+  }
+
+  nav{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .projects-container{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .project{
+    width:90%;
+  }
+
+  .card{
+    margin: 10px;
+    padding: 15px;
+  }
+}
